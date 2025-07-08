@@ -19,7 +19,7 @@ class DataController extends Controller
 
     function fetchData()
     {
-        $response = Http::get('https://blynk.cloud/external/api/getAll?token=sSuT52aEvOQXkH_NMEOQY2iQFe0BQrIK');
+        $response = Http::get('https://blynk.cloud/external/api/getAll?token=4F1jFxEVdlZm2-wh8oG8z2z3q-bt5GcP');
 
         $data = $response->json();
         $tds = $data['v0'];
